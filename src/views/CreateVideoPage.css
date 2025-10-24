@@ -1,0 +1,118 @@
+.create-video-page {
+  min-height: 100vh;
+  background-color: #000000;
+  padding-bottom: 100px;
+}
+
+.page-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid #333;
+}
+
+.page-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #00bfff;
+  margin: 0;
+}
+
+.page-content {
+  padding: 2rem 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 1.75rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.video-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-label {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.description-input {
+  width: 100%;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border: 2px solid #00bfff;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.description-input::placeholder {
+  color: #666;
+}
+
+.description-input:focus {
+  outline: none;
+  border-color: #00ff00;
+}
+
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border: 2px solid #00bfff;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.form-input::placeholder {
+  color: #666;
+}
+
+.form-input:focus,
+.form-select:focus {
+  outline: none;
+  border-color: #00ff00;
+}
+
+.form-select option {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.generate-button {
+  background: linear-gradient(135deg, #00ff00 0%, #00ff00 100%);
+  border: 2px solid #00ff00;
+  padding: 1.25rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #000000;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 1rem;
+}
+
+.generate-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 255, 0, 0.4);
+}
+
+.generate-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

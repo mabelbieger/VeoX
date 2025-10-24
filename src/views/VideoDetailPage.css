@@ -1,0 +1,129 @@
+.video-detail-page {
+  min-height: 100vh;
+  background-color: #000000;
+  padding-bottom: 100px;
+}
+
+.result-title {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.result-ready {
+  color: #00ff00;
+}
+
+.video-preview {
+  background-color: #1a1a1a;
+  border: 2px solid #00ff00;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.video-player {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 9/16;
+  background: linear-gradient(135deg, #1a4d1a 0%, #0d260d 100%);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00ff00;
+  margin: 0 auto 1.5rem;
+}
+
+.processing-text {
+  color: #00ff00;
+  font-size: 1.25rem;
+}
+
+.video-meta {
+  text-align: center;
+}
+
+.video-meta-title {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.video-meta-description {
+  color: #a0a0a0;
+  line-height: 1.6;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.action-button-outline {
+  flex: 1;
+  background: transparent;
+  border: 2px solid #00ff00;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #00ff00;
+  transition: background-color 0.2s;
+}
+
+.action-button-outline:hover {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.action-button {
+  flex: 1;
+  background: linear-gradient(135deg, #00ff00 0%, #00ff00 100%);
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #000000;
+  transition: transform 0.2s;
+}
+
+.action-button:hover {
+  transform: translateY(-2px);
+}
+
+.video-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.secondary-button {
+  background-color: #7f7fff;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+.secondary-button:hover {
+  background-color: #6666ff;
+}
+
+.loading-text,
+.error-text {
+  color: #a0a0a0;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 2rem;
+}
