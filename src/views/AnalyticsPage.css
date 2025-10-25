@@ -227,6 +227,7 @@
   text-align: right;
 }
 
+
 @media (max-width: 768px) {
   .demographics-grid {
     grid-template-columns: 1fr;

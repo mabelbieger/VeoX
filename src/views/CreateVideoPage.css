@@ -95,7 +95,7 @@
 }
 
 .generate-button {
-  background: linear-gradient(135deg, #00ff00 0%, #00ff00 100%);
+  background: linear-gradient(135deg, #7f7fff 0%, #00ff00 100%);
   border: 2px solid #00ff00;
   padding: 1.25rem 2rem;
   font-size: 1.1rem;
@@ -115,4 +115,19 @@
 .generate-button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+.form-select {
+  width: 100%;
+  padding: 1rem;
+  padding-right: 2.5rem;
+  border: 2px solid #00bfff;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
 }

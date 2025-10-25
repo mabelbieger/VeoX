@@ -48,7 +48,7 @@ export const DashboardPage = () => {
 
       <div className="dashboard-content">
         <h2 className="welcome-text">
-          Olá, {username}
+          Olá, {username}!
         </h2>
 
         <button
