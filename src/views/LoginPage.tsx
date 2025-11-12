@@ -38,7 +38,7 @@ export const LoginPage = () => {
           <div className="form-group">
             <input
               type="email"
-              placeholder="Nome de usuário"
+              placeholder="E-mail"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="form-input"
